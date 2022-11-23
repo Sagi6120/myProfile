@@ -60,7 +60,9 @@
     background-position: 0 0;
   }
 }
-
+.allsize{
+  width:75%;
+}
 .block:after {
   filter: blur(50px);
 }
