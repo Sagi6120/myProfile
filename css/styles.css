@@ -60,9 +60,7 @@
     background-position: 0 0;
   }
 }
-.allsize{
-  width:75%;
-}
+
 .block:after {
   filter: blur(50px);
 }
@@ -12219,4 +12217,39 @@ a[title="Hosted on free web hosting 000webhost.com. Host your own website for FR
 }
 .disclaimer {
   display: none;
+}
+/* Base styles (for all screen sizes) */
+body {
+    font-size: 16px;
+    /* Other general styles */
+}
+
+/* Mobile styles */
+@media (max-width: 576px) {
+    .navbar {
+        font-size: 12px;
+    }
+    .content {
+        padding: 5px;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 577px) and (max-width: 768px) {
+    .navbar {
+        font-size: 14px;
+    }
+    .content {
+        padding: 10px;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 769px) {
+    .navbar {
+        font-size: 18px;
+    }
+    .content {
+        padding: 20px;
+    }
 }
